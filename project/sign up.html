@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> sign up</title>
+    <style>
+      
+      
+      body{
+        background-image: url(back3.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        
+       }
+      #header{
+        height: 100px;
+        width: 100%;
+        background: rgba(0,0,0,1);
+
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      #header ul li{
+        display: inline-block;
+        margin: 0px 60px;
+      }
+      a{
+        color: aqua;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      #header ul{
+        height: 50px;
+        width: 100%;
+          background: rgba(0,0,0,0.1);
+          
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id ="header">
+      <img src="appo.jpeg" height="100" width="500;">  
+      <ul>
+        <li><a href="program.html"> home</a></li>
+        <li><a href="customer.html"> customer</a></li>
+        <li><a href="sign up.html"> sign up</a></li>
+        <li><a href="school.html"> log out</a></li>
+        </ul>
+       </div>
+       <div id ="body"></div>
+        <center>
+          <div id="box">
+            <h2 style="color: blue;">CUSTOMER LOGIN</h2>
+            <table>
+              <tr>
+                <th>First name:</th>
+                <td><input type="text"name="First name=""">
+                </td>
+                </tr>
+                <tr>
+              <th>Last name:</th>
+                <td><input type="text"name="last name=""">
+                </td></tr>
+                <tr>
+                <th>Mother name:</th>
+                <td><input type="text"name="mother name=""">
+                </td></tr>
+                <tr>
+                <th>Father name:</th>
+                <td><input type="text"name="father name=""">
+                </td><br>
+              </tr>
+              <tr> <th> Date of Birth: </th> 
+                <td><input type="date"size=""</td>
+              </tr>
+              <th>Gender:</th><td><input type="radio" name="gender" size=""> male 
+                                   <input type="radio"name="gender" size=""> female
+                                  </td>
+              <tr>
+                <th>Blood group</th>
+              <td><Blood group:>
+                <select name="Blood group">
+                  <option name="">--SELECT--</option>
+                  <option name="">A</option>
+                  <option name="">B</option>
+                  <option name="">AB</option>
+                  <option name="">O</option>
+                </select>
+
+              <tr>
+                <th>Gmail</th>
+              <td><input type="text"name="Gmail=""">
+              <tr>
+                <th>Phone number</th>
+              <td><input type="text"name="phone number=""">
+              <tr>
+                <tr>
+                  <th>Photo</th>
+                <td><input type="file"name="photo""">
+                <tr>
+                <th> Set password:</th>
+                <td><input type="password"name="password=""">
+                </td>
+              </tr>
+              <tr>
+                <th> Conform password:</th>
+                <td><input type="password"name="password=""">
+                </td>
+              </tr>
+              <tr>
+                <th></th>
+                <td><input type="submit"value="submit">
+                </td>
+              </tr>
+              
+            </table>
+          </div>
+        </center>
+      </div>
+  </body>
+</html>
